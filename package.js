@@ -1,8 +1,8 @@
 Package.describe({
   name: 'origenstudio:vulcan-files-s3',
   version: '1.0.0-alpha.1',
-  summary: '',
-  git: 'https://github.com/OrigenStudio/FS-helpers',
+  summary: 'S3 integration for Vulcan-Files',
+  git: 'https://github.com/OrigenStudio/vulcan-files-s3',
   documentation: 'README.md'
 });
 
