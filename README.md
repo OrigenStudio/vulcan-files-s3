@@ -59,6 +59,8 @@ Once you have the provider, you can pass it as a parameter to `createFSCollectio
 ```js
 const MyFilesS3Collection = createFSCollection({
   collectionName: 'MyFilesS3',
+  uploadTo3rdParty: s3StorageProvider.upload,
+  deleteFrom3rdParty: s3StorageProvider.delete,
   storageProvider: s3StorageProvider,
 })
 ```
